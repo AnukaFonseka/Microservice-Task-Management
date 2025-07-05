@@ -6,12 +6,12 @@ This project consists of 3 backend microservices and an API Gateway built using 
 
 ## 📦 Microservices Overview
 
-| Service          | Port   |
-| ---------------- | ------ |
-| API Gateway      | `3000` |
-| Auth Service     | `3001` |
-| Employee Service | `3002` |
-| Task Service     | `3003` |
+| Service          | Port   | Description                                                           |
+| ---------------- | ------ | --------------------------------------------------------------------- |
+| API Gateway      | `3000` | Centralized entry point for all services and Swagger docs             |
+| Auth Service     | `3001` | Handles user login and JWT generation                                 |
+| Employee Service | `3002` | Manages employee CRUD                                                 |
+| Task Service     | `3003` | Manages task CRUD and assignment (communicates with Employee Service) |
 
 ---
 
